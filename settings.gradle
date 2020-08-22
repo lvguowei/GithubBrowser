@@ -1,0 +1,5 @@
+include ':home'
+include ':repository'
+include ':githubapi'
+include ':app'
+rootProject.name = "GithubBrowser"
