@@ -29,7 +29,8 @@ ext.versions = [
         "dagger"          : "2.26",
         "lifecycle"       : "2.2.0",
         "truth"           : "1.0.1",
-        "recyclerview"    : "1.1.0"
+        "recyclerview"    : "1.1.0",
+        "archTesting"     : "2.1.0"
 ]
 
 
@@ -38,7 +39,8 @@ ext.deps = [
                 "constraintlayout": "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
                 "recyclerview"    : "androidx.recyclerview:recyclerview:${versions.recyclerview}",
                 "livedata"        : "androidx.lifecycle:lifecycle-livedata-ktx:${versions.lifecycle}",
-                "viewmodel"       : "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.lifecycle}"
+                "viewmodel"       : "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.lifecycle}",
+                "archTesting"     : "androidx.arch.core:core-testing:${versions.archTesting}"
         ],
         "dagger"  : [
                 "core"    : "com.google.dagger:dagger:${versions.dagger}",
