@@ -1,6 +1,7 @@
 package com.example.githubbrowser.application
 
 import android.content.Context
+import com.example.appdeps.ApplicationDeps
 import com.example.githubapi.GithubApiModule
 import com.example.repository.AppRepository
 import dagger.BindsInstance
@@ -9,9 +10,8 @@ import javax.inject.Singleton
 
 @Singleton
 @Component(modules = [GithubApiModule::class])
-interface ApplicationComponent {
+interface ApplicationComponent : ApplicationDeps {
 
-  fun appRepository(): AppRepository
 
   @Component.Factory
   interface Factory {
