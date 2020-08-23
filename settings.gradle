@@ -1,3 +1,5 @@
+include ':appdeps'
+include ':di'
 include ':home'
 include ':repository'
 include ':githubapi'
