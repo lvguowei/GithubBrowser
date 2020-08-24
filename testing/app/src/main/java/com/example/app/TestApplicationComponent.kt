@@ -12,7 +12,7 @@ import javax.inject.Singleton
 @Component(modules = [TestGithubApiModule::class])
 interface TestApplicationComponent : ApplicationComponent {
 
-  fun fakeGithubApi(): FakeGithubApi
+  fun githubApi(): FakeGithubApi
 
   @Component.Factory
   interface Factory {
