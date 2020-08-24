@@ -1,9 +1,8 @@
-package com.example.githubbrowser.application
+package com.example.appcomponent
 
 import android.content.Context
 import com.example.appdeps.ApplicationDeps
 import com.example.githubapi.GithubApiModule
-import com.example.repository.AppRepository
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton

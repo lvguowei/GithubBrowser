@@ -1,6 +1,7 @@
 package com.example.githubbrowser.application
 
 import android.app.Application
+import com.example.appcomponent.DaggerApplicationComponent
 import com.example.appdeps.ApplicationDeps
 import com.example.appdeps.HasApplicationDeps
 

@@ -42,6 +42,7 @@ dependencies {
     implementation project(":repository")
     implementation project(":appdeps")
     implementation project(":home")
+    implementation project(":appcomponent")
 
     implementation deps.androidx.fragment
 
