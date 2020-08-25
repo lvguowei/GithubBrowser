@@ -1,12 +1,14 @@
 package com.example.home
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.example.githubapi.GithubApi
+import com.example.app.githubapi.FakeGithubApi
 import com.example.githubapi.model.RepoApiModel
 import com.example.githubapi.model.UserApiModel
 import com.example.home.list.RepoItem
 import com.example.repository.AppRepository
 import com.google.common.truth.Truth.assertThat
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.test.setMain
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -35,7 +37,8 @@ class HomeViewModelTest {
 
   @Before
   fun setUp() {
-    val appRepository = AppRepository(FakeGithubApi())
+    Dispatchers.setMain(Dispatchers.Unconfined)
+    val appRepository = AppRepository(FakeGithubApi().apply { repos = listOf(fakeRepoApiModel) })
     viewStateValues = mutableListOf()
     viewModel = HomeViewModel(appRepository)
     viewModel.viewStateUpdates.observeForever { viewStateValues.add(it) }
@@ -57,14 +60,4 @@ class HomeViewModelTest {
 
     assertThat(viewStateValues[0]).isEqualTo(expectedState)
   }
-}
-
-
-private class FakeGithubApi : GithubApi {
-  override fun getTopRepositories(): List<RepoApiModel> {
-    return listOf(
-      fakeRepoApiModel
-    )
-  }
-
 }

@@ -35,5 +35,8 @@ dependencies {
     api project(":githubapi")
 
     implementation deps.dagger.core
+    implementation deps.coroutines.android
+
+    testImplementation project(":testing:app")
     testImplementation deps.truth
 }
