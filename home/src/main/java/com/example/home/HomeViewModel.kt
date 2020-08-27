@@ -22,7 +22,7 @@ class HomeViewModel @Inject constructor(
       _viewState.value = HomeViewStateLoaded(topRepos.map {
         RepoItem(
           name = it.name,
-          description = it.description,
+          description = it.description ?: "",
           starsCount = it.stargazersCount,
           forkCount = it.forksCount
         )
