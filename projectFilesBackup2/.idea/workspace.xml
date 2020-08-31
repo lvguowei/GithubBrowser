@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f59fc82-c9a6-4f5f-beae-7ac64e9f9d27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/details/src/main/java/com/example/details/RepoDetailsModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/details/src/main/java/com/example/details/RepoDetailsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/githubapi/src/main/java/com/example/githubapi/model/ContributorApiModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/src/main/java/com/example/details/RepoDetailsComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/details/src/main/java/com/example/details/RepoDetailsComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/src/main/java/com/example/details/RepoDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/details/src/main/java/com/example/details/RepoDetailsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/githubapi/src/main/java/com/example/githubapi/GithubApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/githubapi/src/main/java/com/example/githubapi/GithubApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/src/androidTest/java/com/example/home/HomeFragmentTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/androidTest/java/com/example/home/HomeFragmentTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/src/test/java/com/example/home/HomeViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/home/src/test/java/com/example/home/HomeViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/src/main/java/com/example/repository/AppRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/main/java/com/example/repository/AppRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/src/test/java/com/example/repository/AppRepositoryTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/repository/src/test/java/com/example/repository/AppRepositoryTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/app/src/main/java/com/example/app/githubapi/FakeGithubApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/testing/app/src/main/java/com/example/app/githubapi/FakeGithubApi.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_26" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/home">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubBrowser" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubBrowser" type="f1a62948:ProjectNode" />
+                <item name="home" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubBrowser" type="f1a62948:ProjectNode" />
+                <item name="home" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GithubBrowser" type="f1a62948:ProjectNode" />
+                <item name="home" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gSHk16SgsN75SSxTzEMMHiVIAi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/home/src/test/java/com/example/home" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.home" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.appcomponent" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/di/src/main/java/com/example/di/scope" />
+      <recent name="$PROJECT_DIR$/home/src/main/res/layout" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppRepositoryTest.getRepo returns cached value">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubBrowser-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="GithubBrowser-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeFragmentTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="home" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.home.HomeFragmentTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reposDisplayed()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="home" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="reposDisplayed" />
+      <option name="CLASS_NAME" value="com.example.home.HomeFragmentTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRepositoryTest.getRepo returns cached value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repository" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.repository.AppRepositoryTest" />
+      <option name="METHOD_NAME" value="getRepo returns cached value" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRepositoryTest.getTopRepos returns cached result" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="repository" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.repository.AppRepositoryTest" />
+      <option name="METHOD_NAME" value="getTopRepos returns cached result" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unittests in testing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testing&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppRepositoryTest.getRepo returns cached value" />
+        <item itemvalue="JUnit.AppRepositoryTest.getTopRepos returns cached result" />
+        <item itemvalue="Android Instrumented Tests.HomeFragmentTest" />
+        <item itemvalue="Android Instrumented Tests.reposDisplayed()" />
+        <item itemvalue="Python tests.Unittests in testing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f59fc82-c9a6-4f5f-beae-7ac64e9f9d27" name="Default Changelist" comment="" />
+      <created>1598101212251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598101212251</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Injecting a Jetpack ViewModel">
+      <created>1598198477635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598198477635</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exposing Singleton Dependencies in a Modular Way">
+      <created>1598199302499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598199302499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Unit testing HomeViewModel">
+      <created>1598210633048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598210633048</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modularizing ApplicationComponent">
+      <created>1598242749155</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598242749155</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding the TestApplicationComponent">
+      <created>1598243978920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598243978920</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding the Test Application and Runner">
+      <created>1598294254207</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598294254207</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HomeFragment Espresso Test">
+      <created>1598296718658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598296718658</updated>
+    </task>
+    <task id="LOCAL-00008" summary="suspend functions">
+      <created>1598379972455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598379972455</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Preparing for the real GitHub API">
+      <created>1598382423015</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598382423015</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Build variants/flavors">
+      <created>1598557315372</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598557315373</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Repo Details Component">
+      <created>1598645249948</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598645249948</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Injecting a Jetpack ViewModel" />
+    <MESSAGE value="Exposing Singleton Dependencies in a Modular Way" />
+    <MESSAGE value="Unit testing HomeViewModel" />
+    <MESSAGE value="Modularizing ApplicationComponent" />
+    <MESSAGE value="Adding the TestApplicationComponent" />
+    <MESSAGE value="Adding the Test Application and Runner" />
+    <MESSAGE value="HomeFragment Espresso Test" />
+    <MESSAGE value="suspend functions" />
+    <MESSAGE value="Preparing for the real GitHub API" />
+    <MESSAGE value="Build variants/flavors" />
+    <MESSAGE value="Repo Details Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repo Details Component" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1218" y="244" width="1393" height="1524" key="#app" timestamp="1598382350677">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1218" y="244" width="1393" height="1524" key="#app/0.0.3840.2160@0.0.3840.2160" timestamp="1598382350677" />
+    <state x="2317" y="191" width="1105" height="1342" key="#com.intellij.ide.util.MemberChooser" timestamp="1598725462084">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2317" y="191" width="1105" height="1342" key="#com.intellij.ide.util.MemberChooser/0.0.3840.2160@0.0.3840.2160" timestamp="1598725462084" />
+    <state x="1366" y="693" width="1098" height="663" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598243919908">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1366" y="693" width="1098" height="663" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598243919908" />
+    <state x="1236" y="262" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1598242487852">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1236" y="262" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598242487852" />
+    <state x="0" y="-18" width="3840" height="2178" key="AndroidCreateResourceDirectoryDialog" timestamp="1598643472685">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="0" y="-18" width="3840" height="2178" key="AndroidCreateResourceDirectoryDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598643472685" />
+    <state x="2446" y="715" width="848" height="550" key="AndroidCreateResourceFileDialog" timestamp="1598197484140">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2446" y="715" width="848" height="550" key="AndroidCreateResourceFileDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598197484140" />
+    <state x="0" y="-126" width="3840" height="2178" key="CommitChangelistDialog2" timestamp="1598645249778">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="0" y="-126" width="3840" height="2178" key="CommitChangelistDialog2/0.0.3840.2160@0.0.3840.2160" timestamp="1598645249778" />
+    <state x="2451" y="794" width="837" height="460" key="Github.ShareDialog" timestamp="1598125563797">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2451" y="794" width="837" height="460" key="Github.ShareDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598125563797" />
+    <state x="2155" y="321" width="1429" height="1406" key="Github.UntrackedFilesDialog" timestamp="1598125568616">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="2155" y="321" width="1429" height="1406" key="Github.UntrackedFilesDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598125568616" />
+    <state width="3710" height="577" key="GridCell.Tab.0.bottom" timestamp="1598728023602">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3710" height="577" key="GridCell.Tab.0.bottom/0.0.3840.2160@0.0.3840.2160" timestamp="1598728023602" />
+    <state width="3710" height="577" key="GridCell.Tab.0.center" timestamp="1598728023602">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3710" height="577" key="GridCell.Tab.0.center/0.0.3840.2160@0.0.3840.2160" timestamp="1598728023602" />
+    <state width="3710" height="577" key="GridCell.Tab.0.left" timestamp="1598728023601">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3710" height="577" key="GridCell.Tab.0.left/0.0.3840.2160@0.0.3840.2160" timestamp="1598728023601" />
+    <state width="3710" height="577" key="GridCell.Tab.0.right" timestamp="1598728023602">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3710" height="577" key="GridCell.Tab.0.right/0.0.3840.2160@0.0.3840.2160" timestamp="1598728023602" />
+    <state x="0" y="-18" width="3840" height="2178" key="SettingsEditor" timestamp="1598642072295">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="0" y="-18" width="3840" height="2178" key="SettingsEditor/0.0.3840.2160@0.0.3840.2160" timestamp="1598642072295" />
+    <state width="1244" height="1028" key="SwitcherDM" timestamp="1598296238870">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state width="1244" height="1028" key="SwitcherDM/0.0.3840.2160@0.0.3840.2160" timestamp="1598296238870" />
+    <state x="1830" y="194" width="2000" height="1264" key="Vcs.Push.Dialog.v2" timestamp="1598645253080">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1830" y="194" width="2000" height="1264" key="Vcs.Push.Dialog.v2/0.0.3840.2160@0.0.3840.2160" timestamp="1598645253080" />
+    <state x="1355" y="691" width="1109" height="583" key="chooseDestDirectoryDialog" timestamp="1598642537344">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1355" y="691" width="1109" height="583" key="chooseDestDirectoryDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598642537344" />
+    <state x="1008" y="446" width="1954" height="1250" key="find.popup" timestamp="1598296141023">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1008" y="446" width="1954" height="1250" key="find.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1598296141023" />
+    <state x="1234" y="399" width="1362" height="1251" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1598209503540">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1234" y="399" width="1362" height="1251" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598209503540" />
+    <state x="859" y="0" width="2115" height="2154" key="search.everywhere.popup" timestamp="1598727132110">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="859" y="0" width="2115" height="2154" key="search.everywhere.popup/0.0.3840.2160@0.0.3840.2160" timestamp="1598727132110" />
+  </component>
+</project>

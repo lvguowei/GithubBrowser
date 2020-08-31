@@ -38,7 +38,7 @@ class HomeViewModelTest {
   @Before
   fun setUp() {
     Dispatchers.setMain(Dispatchers.Unconfined)
-    val appRepository = AppRepository(FakeGithubApi().apply { repos = listOf(fakeRepoApiModel) })
+    val appRepository = AppRepository(FakeGithubApi().apply { topRepos = listOf(fakeRepoApiModel) })
     viewStateValues = mutableListOf()
     viewModel = HomeViewModel(appRepository)
     viewModel.viewStateUpdates.observeForever { viewStateValues.add(it) }
